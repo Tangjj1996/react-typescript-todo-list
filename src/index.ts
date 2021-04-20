@@ -1,9 +1,3 @@
-interface props {
-  name: string
-}
-
-const a: props = {
-  name: 'tangji',
-}
-
-console.log(a)
+import * as React from 'react'
+import * as ReactDom from 'react-dom'
+import App from './app'
