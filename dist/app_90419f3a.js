@@ -1,1 +1,1 @@
-console.log({name:"tangji"});
+console.log({ name: 'tangji' })

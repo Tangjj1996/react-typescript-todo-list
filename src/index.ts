@@ -2,8 +2,8 @@ interface props {
   name: string
 }
 
-const a:props = {
-  name: 'tangji'
+const a: props = {
+  name: 'tangji',
 }
 
 console.log(a)
