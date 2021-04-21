@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server -c webpack/dev.config.js",
+    "dev": "webpack serve -c webpack/dev.config.js",
     "prd": "rimraf ../dist && webpack -c webpack/prod.config.js"
   },
   "devDependencies": {
@@ -19,6 +19,7 @@
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-react": "^7.23.2",
+    "html-webpack-plugin": "^5.3.1",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "webpack": "^5.34.0",
