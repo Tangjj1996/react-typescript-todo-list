@@ -1,7 +1,10 @@
-import React from 'react'
+import * as React from 'react'
 
-const App = () => {
-  return <div>this is a test.</div>
+interface appProp {
+  name: string
+}
+const App: React.FC<appProp> = ({ name }) => {
+  return <div>this is a test {name}.</div>
 }
 
 export default App
