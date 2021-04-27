@@ -2,7 +2,7 @@ import * as React from 'react'
 
 type ButtonProps = React.ComponentPropsWithoutRef<'button'>
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
   const reference = React.createRef<HTMLButtonElement>()
 
   React.useEffect(() => {
@@ -24,4 +24,4 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   )
 )
 
-export default Home
+export default About
